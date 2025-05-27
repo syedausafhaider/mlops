@@ -1,0 +1,32 @@
+# step 1. Install mlflow
+# step 2. Import required packages
+# step 3. Read the data
+
+Mean_squared_error
+Mean_absolute_error
+r2_score
+
+
+These are performance metric for regression algorithm.
+Regression algorithm under supervised technique => which have target data as numerical data
+
+(Y_actual - y_predicted)^2= error^2
+
+100 observations
+100 errors
+
+for all 100 error ====>  Mean_error
+
+Mean squared error
+------------------
+How much error the model is giving ?
+
+if the error is less, then the model is good
+	otherwise the model is bad.
+
+--
+Elastic model --> is a regression model having 2 arguments
+1) alpha ratio
+2) l1_ratio
+
+we need to save our model artifacts model version, model tracking and model register === MLOPS
